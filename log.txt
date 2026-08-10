@@ -1,0 +1,12 @@
+total 40
+drwxrwxr-x  2 ZYY ZYY  4096 Jul 31 23:09 .
+drwx------ 16 ZYY ZYY  4096 Jul 31 20:46 ..
+-rw-rw-r--  1 ZYY ZYY     0 Jul 31 23:09 log.txt
+-rw-rw-r--  1 ZYY ZYY    81 Jul 31 22:53 Makefile
+-rwxrwxr-x  1 ZYY ZYY 20120 Jul 31 23:08 myshell
+-rw-rw-r--  1 ZYY ZYY  7508 Jul 31 23:08 myshell.cc
+total 36
+-rw-rw-r-- 1 ZYY ZYY   296 Jul 31 23:09 log.txt
+-rw-rw-r-- 1 ZYY ZYY    81 Jul 31 22:53 Makefile
+-rwxrwxr-x 1 ZYY ZYY 20120 Jul 31 23:08 myshell
+-rw-rw-r-- 1 ZYY ZYY  7508 Jul 31 23:08 myshell.cc
