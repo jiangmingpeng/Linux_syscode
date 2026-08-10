@@ -1,0 +1,17 @@
+libmystdio.a:main.o mystdio.o mystring.o
+	ar -rc $@ $^
+
+%.o:%.c
+	gcc -c $<
+
+
+.PHONY:output
+output:
+	mkdir -p ./mylib
+	mkdir -p ./mylib/myinclude
+	mkdir -p ./mylib/lib
+	cp *.h ./mylib/myinclude
+	cp *.a ./mylib/lib
+.PHONY:clean
+clean:
+	rm -rf main *.o *.a mylib
