@@ -23,7 +23,7 @@ public:
 };
 
 
-void *Routine(Data& set)//类类型用引用减少消耗 提高效率
+void *Routine(Data& set)//类类型用引用减少消耗 提高效率 //具体参数个数由上面的类来给出 然后由里面回调的时候传给给它
 {
     while (true)
     {
@@ -40,13 +40,13 @@ void *Routine(Data& set)//类类型用引用减少消耗 提高效率
 
 int main()
 {
-    Type td(10,20);
+    Type td(10,20);//参数的具体值则由用户 手动创建对象来传入内部线程类来进行初始化线程内部的初始化
     std::vector<ThreadMould::Thread<Type>> threads; //表示这个模板实例化的初始值
     int threadNum = 0;
     std::cin>>threadNum;
     for(int i = 0;i<threadNum;i++)
     {
-        threads.emplace_back(Routine,td);
+        threads.emplace_back(Routine,td);//这里能传两个参数得益于里面的线程类 构造函数里有两个参数
     }
     for (auto &t : threads)
     {
