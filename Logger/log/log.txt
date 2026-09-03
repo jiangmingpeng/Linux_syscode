@@ -1,0 +1,13 @@
+简单测试000
+简单测试000
+简单测试000
+[2026-09-03 17:14:54.697446] [DEBUG] [329760] [Main.cc] [9]  - hell world 3.14 109 hello1 
+[2026-09-03 17:14:54.698424] [WARNING] [329760] [Main.cc] [10]  - hell world 3.14 109 hello2 
+[2026-09-03 17:14:54.698631] [FATAL] [329760] [Main.cc] [11]  - hell world 3.14 109 hello3 
+[2026-09-03 17:14:54.699245] [ERROR] [329760] [Main.cc] [12]  - hell world 3.14 109 hello4 
+[2026-09-03 17:14:54.699514] [INFO] [329760] [Main.cc] [13]  - hell world 3.14 109 hello5 
+[2026-09-03 17:15:32.613322] [DEBUG] [329858] [Main.cc] [9] - hell world 3.14 109 hello1 
+[2026-09-03 17:15:32.613629] [WARNING] [329858] [Main.cc] [10] - hell world 3.14 109 hello2 
+[2026-09-03 17:15:32.613658] [FATAL] [329858] [Main.cc] [11] - hell world 3.14 109 hello3 
+[2026-09-03 17:15:32.613679] [ERROR] [329858] [Main.cc] [12] - hell world 3.14 109 hello4 
+[2026-09-03 17:15:32.613696] [INFO] [329858] [Main.cc] [13] - hell world 3.14 109 hello5 
